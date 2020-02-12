@@ -18,6 +18,7 @@ $(call inherit-product, vendor/proton/bootanimation/bootanimation.mk)
 $(call inherit-product, vendor/proton/fonts/fonts.mk)
 $(call inherit-product, vendor/proton/overlay/overlay.mk)
 $(call inherit-product, vendor/proton/telephony/telephony.mk)
+$(call inherit-product, vendor/proton/config/audio.mk)
 $(call inherit-product-if-exists, vendor/proton/signing/dev.mk)
 
 # Flatten APEXs for performance
